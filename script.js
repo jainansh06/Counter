@@ -8,6 +8,7 @@ let count = 0;
 function increase(){
    count += 1;
    countValue.textContent = count;
+   console.log(`Incremented to : ${count} from ${(count-1)}`);
 }
 function decrease(){
     if(countValue.textContent >= 1){
