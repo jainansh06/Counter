@@ -16,7 +16,8 @@ function decrease(){
         console.log(`Decremented to : ${count} from ${(count+1)}`);
     }
     else{
-        reset();
+        count = 0;
+        console.log("Can't decrement below 0!!!");
     }
     countValue.textContent = count;
     
