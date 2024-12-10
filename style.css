@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+#container{
+    border: 3px solid black;
+    width: 250px;
+    height: 200px;
+    background-color:darkkhaki;
+}
+#h{
+    margin-left: 25%;
+}
+.count{
+    margin-left: 43%;
+    font-size: larger;
+}
+#btn{
+    margin-left: 10%;
+}
+.inc,.res,.dec{
+    background-color: red;
+}
