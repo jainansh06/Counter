@@ -13,12 +13,13 @@ function increase(){
 function decrease(){
     if(countValue.textContent >= 1){
         count -= 1;
+        console.log(`Decremented to : ${count} from ${(count+1)}`);
     }
     else{
         reset();
     }
     countValue.textContent = count;
-    console.log(`Decremented to : ${count} from ${(count+1)}`);
+    
 }
 function reset(){
     count = 0;
