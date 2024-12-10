@@ -11,7 +11,7 @@ function increase(){
    console.log(`Incremented to : ${count} from ${(count-1)}`);
 }
 function decrease(){
-    if(countValue.textContent >= 1){
+   if(countValue.textContent >= 1){
         count -= 1;
         console.log(`Decremented to : ${count} from ${(count+1)}`);
     }
