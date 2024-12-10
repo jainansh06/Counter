@@ -18,10 +18,12 @@ function decrease(){
         reset();
     }
     countValue.textContent = count;
+    console.log(`Decremented to : ${count} from ${(count+1)}`);
 }
 function reset(){
     count = 0;
     countValue.textContent = count;
+    console.log(`Reset to : 0`);
 }
 
 inc.addEventListener('click', increase);
