@@ -17,7 +17,7 @@ function decrease(){
     }
     else{
         count = 0;
-        console.log("Can't decrement below 0!!!");
+        alert("Can't decrement below 0!!!");
     }
     countValue.textContent = count;
     
