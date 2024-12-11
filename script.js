@@ -24,8 +24,15 @@ function decrease(){
 }
 function reset(){
     count = 0;
+    if(countValue.textContent  != 0){
+       
+       console.log(`Reset to : 0`);
+    }
+    else{
+       console.log("Value already Zero");
+    }
+    
     countValue.textContent = count;
-    console.log(`Reset to : 0`);
 }
 
 inc.addEventListener('click', increase);
